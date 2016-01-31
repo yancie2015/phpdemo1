@@ -5,7 +5,7 @@
 
 	foreach($arr1 as $item){
 ?>
-		<a href="<?PHP echo $item['linkurl']; ?>" target="_blank"><?PHP echo $item['title']; ?></a>
+	<a href="<?PHP echo $item['linkurl']; ?>" target="_blank"><?PHP echo $item['title']; ?></a>
 <?PHP
 	}
 ?>
