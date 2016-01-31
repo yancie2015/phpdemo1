@@ -1,5 +1,5 @@
 <?PHP
-  $url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+	$url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 	$arr1 = array();
 	$arr1[] = array("linkurl"=>.$url."/static_html/demo1.php","title"=>"static_html");
 
