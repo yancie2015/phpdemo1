@@ -1,5 +1,5 @@
 <?php
-	error_reporting("0");
+	error_reporting("0"); //屏蔽错误
 	$filename = $_GET['del'];
 	if($filename){
 		unlink($filename);
